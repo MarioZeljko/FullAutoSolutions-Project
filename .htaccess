@@ -1,0 +1,14 @@
+Options +FollowSymLinks -MultiViews
+
+Turn mod_rewrite on
+RewriteEngine On
+RewriteBase /
+
+Handle client-side routing
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(pages/.+).html$ $1 [NC,L]
+RewriteRule ^([^.]+)/?$ pages/$1.html [NC,L]
+
+Handle 404 errors
+ErrorDocument 404 /pages/404.html
