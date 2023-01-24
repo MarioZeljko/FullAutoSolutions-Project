@@ -1,0 +1,18 @@
+/////Boosted productivity and efficiency:
+Robot kinematic and energy expenditure can be optimized to increase efficiency and maximize productivity.
+/////Enhanced system flexibility:
+Same robot can often be used in multiple applications with some system and tool modifications.
+This offers possibility of using the same robot even if production plan changes.
+//////Increased product quality:
+Robotic systems offers higher accurary and repeatability in their worked compared to humans which usually leads to higher quality produces once the process has been established and optimized.
+/////Increased cost savings:
+While human labor prices are increasing over decades, prices of industrial robots are decreasing which makes them more and more affordable as the time goes.
+Some studies even estimates that usage of industrial robots will increase labor cost savings by 22% until 2025.
+/////Advanced data tracking and analytics:
+All important data like for example parts produced, energy expenditure, production speed, material expenditure etc. can be tracked and transffered to analytics softwares.
+This allows the data to travel from sensors and actuators in the production facility througout PLC, SCADA, MES, all up to ERP system which maximizes data tracking and enables better planning.
+/////Reduced waste:
+Robots can be optimized to reduce material expenditure which leads to reduced waste in production facilites.
+/////Freeing workers for higher-value tasks:
+Industrial robots are perfect choice for repeatable and monotnous tasks which makes humans feel bored and/or lacking higher purpose. 
+By utilizing robots at those tasks human labor can be transffered to a more creative and higher value tasks.
