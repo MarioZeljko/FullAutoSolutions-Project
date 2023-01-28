@@ -8,8 +8,17 @@ backButton.addEventListener("click", function () {
 
 for (let i = 0; i < links.length; i++) {
   links[i].addEventListener("click", function (event) {
+    const link = event.target.getAttribute("href");
+    // check if link is external, mailto or tel
+    if (
+      link.startsWith("http") ||
+      link.startsWith("mailto") ||
+      link.startsWith("tel")
+    ) {
+      return;
+    }
     event.preventDefault();
-    const page = event.target.getAttribute("href");
+    const page = link;
     history.pushState(page, page, page);
     loadPage(page);
   });
@@ -29,15 +38,15 @@ function loadPage(page) {
     const elements = document.querySelectorAll(".srvc-crd-img-box");
 
     const urls = [
-      "../img/services-home/palletization.jpeg",
-      "../img/services-home/bending.jpeg",
-      "../img/services-home/grippers.jpeg",
-      "../img/services-home/cells.jpeg",
-      "../img/services-home/packing.jpeg",
-      "../img/services-home/milling.jpeg",
-      "../img/services-home/consulting.jpeg",
-      "../img/services-home/education.jpeg",
-      "../img/services-home/maintenance.jpeg",
+      "img/services-home/palletization.jpeg",
+      "img/services-home/bending.jpeg",
+      "img/services-home/grippers.jpeg",
+      "img/services-home/cells.jpeg",
+      "img/services-home/packing.jpeg",
+      "img/services-home/milling.jpeg",
+      "img/services-home/consulting.jpeg",
+      "img/services-home/education.jpeg",
+      "img/services-home/maintenance.jpeg",
     ];
 
     for (let i = 0; i < elements.length; i++) {
