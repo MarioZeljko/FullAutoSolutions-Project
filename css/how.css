@@ -1,0 +1,54 @@
+.section-how {
+  background-color: #272727;
+  padding: 4.8rem 0;
+}
+
+.heading-container {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #e2bc40;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.75px;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.heading-tertiary {
+  font-size: 4.4rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+.how-grid {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+  justify-items: center;
+}
+
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
