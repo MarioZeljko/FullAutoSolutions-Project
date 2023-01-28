@@ -1,0 +1,165 @@
+/* TEMPOPRARY STYLES */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #e2bc40;
+}
+
+.margin-sm {
+  margin-bottom: 2.4rem;
+}
+
+.container {
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+/* -------------------*/
+
+.section-services {
+  background-color: #272727;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  padding: 4.8rem;
+}
+
+.services-container-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+
+.subheading {
+  color: #e2bc40;
+}
+
+.heading-secondary {
+  color: #e2bc40;
+}
+
+.container-img {
+  width: 6.4rem;
+  border-radius: 8px;
+  margin-bottom: 1.2rem;
+}
+
+.services-container-content {
+  color: #cba93a;
+}
+
+.services-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 4.8rem;
+  padding: 4.8rem 1.2rem;
+  align-items: center;
+}
+
+.services-gallery img {
+  width: 100%;
+}
+
+.services-gallery-item:hover {
+  border: 2px solid #e2bc40;
+}
+
+.services-gallery-item {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  height: 60%;
+}
+
+.services-gallery-item img {
+  width: 100%;
+  transition: all 0.4s;
+  height: 100%;
+}
+
+.services-gallery-item img:hover {
+  transform: scale(1.2);
+}
+
+.subheading {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #e2bc40;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.75px;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  margin-bottom: 4.8rem;
+}
+
+.service-container-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.services-checkmark {
+  color: #e2bc40;
+  height: 3.2rem;
+  width: 3.2rem;
+  border: 2px solid #e2bc40;
+  padding: 1.2rem;
+  border-radius: 50%;
+}
+
+/*---------------------*/
+/* SRVC CRDS SECTION */
+
+.srvc-crd-section {
+  padding: 9.6rem 1.2rem 4.8rem 1.2rem;
+  background-color: #272727;
+}
+
+.srvc-crds-container {
+  display: grid;
+  grid-template-rows: Repeat(8, 1fr);
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+.srvc-crd {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  box-shadow: 0 2.4rem 4.8rem #17171741;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e2bc40;
+  margin-bottom: 3.2rem;
+}
+
+.srvc-crd-txt-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #e2bc40;
+}
+
+.srvc-crd-img-box {
+  background-image: linear-gradient(to right bottom, #e2bc4039, #cba93a50),
+    url("../img/services-home/palletization.jpeg");
+  background-size: cover;
+  background-position: center;
+}
