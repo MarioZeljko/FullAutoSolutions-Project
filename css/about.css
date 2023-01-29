@@ -1,0 +1,193 @@
+/* TEMPOPRARY STYLES */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #e2bc40;
+}
+
+.margin-sm {
+  margin-bottom: 2.4rem;
+}
+
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+/*------------------------*/
+
+.about-hero-section {
+  background-color: #272727;
+  padding: 6.4rem 0rem;
+}
+
+.about-hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 1.2rem 4.8rem 4.8rem 4.8rem;
+  background-color: #272727;
+  border: 1px solid #e2bc40;
+  border-radius: 8px;
+  padding: 1.6rem 2.4rem;
+  background-image: linear-gradient(to right bottom, #000000cb, #2727276b),
+    url("/img/about/about-hero-img.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.about-hero-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.about-hero-heading {
+  font-size: 4.2rem;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  color: #e2bc40;
+  margin-bottom: 2.4rem;
+  font-weight: 700;
+}
+
+.about-hero-description {
+  font-size: 2.4rem;
+  line-height: 1.4;
+  letter-spacing: -0.5px;
+  color: #e2bc40;
+  font-weight: 500;
+}
+
+.about-hero-txt-box {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: start;
+  cursor: pointer;
+}
+
+.about-hero-social-box {
+  grid-column: 2;
+  grid-row: 1;
+  width: 100%;
+  align-self: start;
+}
+
+.about-hero-logo-box {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.about-hero-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2.4rem;
+  list-style: none;
+}
+
+.about-hero-social-link {
+  color: #e2bc40;
+  font-size: 3.2rem;
+}
+
+.about-hero-social-link:hover {
+  color: #f1dea0;
+}
+
+.about-hero-listing-box {
+  grid-column: 1;
+  grid-row: 2;
+  justify-self: start;
+}
+
+.about-hero-listing-heading {
+  font-size: 3rem;
+  margin-bottom: 2.8rem;
+}
+
+.about-hero-listing {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.about-hero-listing ion-icon {
+  font-size: 2.4rem;
+}
+
+.about-hero-list {
+  list-style: none;
+}
+
+/* Mission-Vision statement section */
+
+.about-mis-vis-section {
+  background-color: #272727;
+  padding: 4.8rem 0rem;
+}
+
+.about-mis-vis-container {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 3.2rem;
+  margin-bottom: 9.6rem;
+}
+
+.about-mis-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-vis-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-values-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-mis-container ion-icon {
+  font-size: 4.2rem;
+  margin-bottom: 1.2rem;
+}
+.about-vis-container ion-icon {
+  font-size: 4.2rem;
+  margin-bottom: 1.2rem;
+}
+.about-values-container ion-icon {
+  font-size: 4.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.about-mis-headline {
+  font-size: 4.2rem;
+  margin-bottom: 1.8rem;
+}
+
+.about-mis-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.6;
+  text-align: center;
+}
