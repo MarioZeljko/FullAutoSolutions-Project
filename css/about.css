@@ -76,6 +76,7 @@ body {
   grid-column: 1;
   grid-row: 1;
   align-self: start;
+  justify-self: start;
   cursor: pointer;
 }
 
@@ -111,7 +112,7 @@ body {
   grid-column: 1;
   grid-row: 2;
   justify-self: start;
-  padding: 0rem 0rem 0rem 5rem;
+  padding: 0rem 0rem 0rem 6.4rem;
 }
 
 .about-hero-listing-heading {
