@@ -116,10 +116,18 @@ body {
   margin-bottom: 6.4rem;
 }
 
+.financing-grid-tags-flexbox {
+  display: flex;
+  gap: 3.2rem;
+}
+
 .financing-grid-tag {
-  padding: 0.4rem 0.8rem;
-  font-size: 1.2rem;
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   border-radius: 100px;
   font-weight: 600;
+  color: #272727;
+  background-color: #e2bc40;
 }
