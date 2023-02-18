@@ -1,0 +1,124 @@
+/* TEMPOPRARY STYLES */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #e2bc40;
+}
+
+.margin-sm {
+  margin-bottom: 2.4rem;
+}
+
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+/*-----------------*/
+
+.contact-banner-section {
+  background-color: #272727;
+  padding: 3.2rem 0rem 4.8rem 0rem;
+}
+
+.contact-banner-container {
+  color: #e2bc40;
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 1.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.contact-banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 2.4rem;
+  border-radius: 8px;
+  background-image: linear-gradient(to right bottom, #000000cb, #2727276b),
+    url("/img/contact/banner-rsz-transformed.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-banner-textbox {
+  background-color: #272727a4;
+  grid-column: 2 / 3;
+  grid-row: span 2;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  border-radius: 8px;
+  padding: 2.4rem;
+}
+
+.contact-banner-textbox-heading {
+  font-size: 4.4rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  /* margin-bottom: 4.8rem;*/
+}
+
+.contact-banner-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 6.4rem;
+}
+
+.contact-banner-textbox-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.contact-banner-textbox-anchor {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.contact-banner-textbox-anchor:link,
+.contact-banner-textbox-anchor:visited {
+  color: #f1dea0;
+  -webkit-text-stroke: 0.8px #e2bc40;
+}
+
+.contact-banner-textbox-anchor:hover,
+.contact-banner-textbox-anchor:active {
+  color: #cba93a;
+}
+
+.contact-banner-iconbox {
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.contact-banner-icon {
+  color: #e2bc40;
+  height: 6.4rem;
+  width: 6.4rem;
+
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+
+.contact-banner-icon:hover,
+.contact-banner-icon:active {
+  color: #f1dea0;
+}
